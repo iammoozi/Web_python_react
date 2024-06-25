@@ -1,0 +1,26 @@
+.product-list {
+    width: 100%;
+  }
+  
+  .product-list table {
+    width: 100%;
+    border-collapse: separate; /* 테이블 셀 사이에 간격을 주기 위해 separate 사용 */
+    border-spacing: 0 10px; /* 셀 사이의 간격 설정 */
+  }
+  
+  .product-list th, .product-list td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd; /* 기본 셀의 테두리 유지 */
+  }
+  
+  .product-list th {
+    background-color: #6a1b9a;
+    color: white;
+    border: 1px solid #ddd; /* 테이블 헤더 셀의 테두리 유지 */
+  }
+  
+  .product-list th:last-child, .product-list td:last-child {
+    border: none; /* 마지막 열의 테두리 제거 */
+  }
+  

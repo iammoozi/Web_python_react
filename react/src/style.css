@@ -1,0 +1,20 @@
+.loginbtn {
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s; /* 애니메이션 효과를 부드럽게 */
+}
+
+.loginbtn:hover {
+    transform: scale(1.05); /* 버튼이 5% 커지도록 설정 */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3); /* 그림자 효과 추가 */
+}
+
+
+.signupbtn {
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s; /* 애니메이션 효과를 부드럽게 */
+}
+
+.signupbtn:hover {
+    transform: scale(1.05); /* 버튼이 5% 커지도록 설정 */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3); /* 그림자 효과 추가 */
+}

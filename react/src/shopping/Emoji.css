@@ -1,0 +1,14 @@
+.cn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+.emojiii{
+        font-size:28px;
+        color: rgb(51,51,51);
+        font-weight: 500;
+        
+}

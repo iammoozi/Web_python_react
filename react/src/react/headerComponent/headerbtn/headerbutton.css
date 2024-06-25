@@ -1,0 +1,75 @@
+/* .header-buttons {
+    display: flex;
+    gap:1px;
+    margin-left: 60%;
+
+}
+
+.header-buttons button{
+    padding: 10px 10px;
+    background-color: white;
+    cursor: pointer;
+    font-size: 13px;
+    color: #333;
+    outline: none;
+    
+}
+
+.header-buttons button:hover{
+    background-color: #f0f0f0;
+}
+
+.header-buttons .signup{
+    color: #5F0080
+} 
+
+.username{
+    font-size: 15px;
+}
+*/
+
+.header-buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: auto;
+    padding: 10px;
+    background-color: white;
+}
+
+.header-buttons .username {
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 10px;
+    color: #333;
+}
+
+.header-buttons button {
+    padding: 10px 15px;
+    background-color: white;
+    cursor: pointer;
+    font-size: 14px;
+    color: #333;
+    border: none;
+    outline: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.header-buttons button:hover {
+    background-color: #f0f0f0;
+}
+
+.header-buttons .signup {
+    color: #5F0080;
+    font-weight: bold;
+}
+
+.header-buttons .adminpage {
+    color: #5F0080;
+    font-weight: bold;
+}
+
+.header-buttons .mypage {
+    color: #5F0080;
+    font-weight: bold;
+}

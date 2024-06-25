@@ -1,0 +1,11 @@
+.logs {
+    display: flex;
+   
+}
+
+.logs .mbtn{
+    margin-left: 10px;
+    color: #5F0080;
+    font-size: 20px;
+    font-weight: bold;
+}

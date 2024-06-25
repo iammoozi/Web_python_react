@@ -1,0 +1,13 @@
+.categorry{
+    display: flex;
+    gap: 100px;
+    margin-left: 20%;
+    margin-top: 50px;
+    
+}
+
+.categorry button{
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
